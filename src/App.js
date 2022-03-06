@@ -127,7 +127,6 @@ function App() {
 
   return (
     <div className='container'>
-      <h5 style="color:green"><b>Nguyễn Ngọc Hải</b></h5>
       <Header title='Note Công Việc' showAddTask={showAddTask} toggleShow={toggleShow} />
 
       {showAddTask && <AddTask addTask={addTask} editedTask={editedTask} editable={editable} />}

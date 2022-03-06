@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: bisque;
+  background-color: rgb(196, 197, 255);
 }
 
 .container {
@@ -21,8 +21,8 @@ body {
   border-radius: 5px;
   background-image: linear-gradient(
     to bottom right,
-    rgb(204, 16, 119),
-    rgb(231, 191, 213)
+    rgb(16, 204, 16),
+    rgb(191, 231, 206)
   );
 }
 
@@ -36,8 +36,8 @@ body {
 
 .btn {
   display: inline-block;
-  background: rgb(109, 14, 138);
-  color: #fff;
+  background: rgb(138, 74, 14);
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -69,9 +69,9 @@ body {
 }
 
 .done {
-  border-left: 10px solid rgb(102, 18, 77);
+  border-left: 10px solid rgb(88, 18, 102);
   text-decoration:line-through;
-  background-color: darkgrey;
+  background-color: rgb(169, 169, 169);
 }
 
 .task h3 {

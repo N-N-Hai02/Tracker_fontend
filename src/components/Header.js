@@ -2,16 +2,17 @@
 import PropTypes from "prop-types";
 import Button from "./Button";
 
-const Header = ({ title = "Công Việc Thường Ngày ( Note )", toggleShow, showAddTask }) => {
+const Header = ({ title = "Task Tracker", toggleShow, showAddTask }) => {
   const handleClick = () => {
     console.log("Click with handleClick from Header");
   };
   return (
     <header className="header">
       <h1>{title}</h1>
+      <h4>Nguyễn Ngọc Hải</h4>
       <Button
         color={showAddTask ? "red" : "purple"}
-        text={showAddTask ? "Dóng Thêm" : "Mở Thêm"}
+        text={showAddTask ? "Close Add Task Bar" : "Show Add Task Bar"}
         toggleShow={toggleShow}
       />
     </header>
