@@ -2,7 +2,7 @@
 import PropTypes from "prop-types";
 import Button from "./Button";
 
-const Header = ({ title = "Task Tracker", toggleShow, showAddTask }) => {
+const Header = ({ title = "Công Việc Thường Ngày ( Note )", toggleShow, showAddTask }) => {
   const handleClick = () => {
     console.log("Click with handleClick from Header");
   };
@@ -11,7 +11,7 @@ const Header = ({ title = "Task Tracker", toggleShow, showAddTask }) => {
       <h1>{title}</h1>
       <Button
         color={showAddTask ? "red" : "purple"}
-        text={showAddTask ? "Close Add Task Bar" : "Show Add Task Bar"}
+        text={showAddTask ? "Dóng Thêm" : "Mở Thêm"}
         toggleShow={toggleShow}
       />
     </header>
