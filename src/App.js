@@ -127,7 +127,8 @@ function App() {
 
   return (
     <div className='container'>
-      <Header title='TASK TRACKER' showAddTask={showAddTask} toggleShow={toggleShow} />
+      <h5 style="color:green"><b>Nguyễn Ngọc Hải</b></h5>
+      <Header title='Công Việc Thường Ngày ( Note )' showAddTask={showAddTask} toggleShow={toggleShow} />
 
       {showAddTask && <AddTask addTask={addTask} editedTask={editedTask} editable={editable} />}
 
